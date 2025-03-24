@@ -11,4 +11,4 @@ def k1(a):
     print("Sum of even numbers from 10 to 30:", sum_even)
 
 
-runner(t1)
+runner(k1)
