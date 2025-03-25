@@ -1,9 +1,9 @@
 def start_task(a):
-    print(f"\ntas{a}---> start\n")
+    print(f"\ntask {a} ---> start\n")
 
 
 def end_task(a):
-    print(f"\n\tend <---tas{a}\n")
+    print(f"\n\tend <--- task {a}\n")
 
 
 def runner(func, *args):
