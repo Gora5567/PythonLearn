@@ -1,6 +1,4 @@
 # Check here --> README.md to see the assignment
-from helper import *
-from helpers.helper import *
 
 def sum_even(a):
     sum_even = 0
@@ -9,5 +7,3 @@ def sum_even(a):
         sum_even += num
 
     print("Sum of even numbers from 10 to 30:", sum_even)
-
-
