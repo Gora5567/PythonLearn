@@ -1,15 +1,24 @@
-def task2(choose):
-    digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    if choose == 1:
+from helpers.helper import make_int_array
+
+
+def task2(choice):
+    digits = make_int_array(20)
+
+    if choice == 1:
         # without
         odd_digits = []
+
         for num in digits:
             if num % 2 != 0:
                 odd_digits.append(num)
+
         print("without\n", odd_digits)
-    elif choose == 2:
+
+    elif choice == 2:
         # with
         odd_digits = [num for num in digits if num % 2 != 0]
+
         print("with list comprehension\n", odd_digits)
+
     else:
         print("wrong input")

@@ -21,5 +21,15 @@ def runner(func, *args):
 import random
 
 
-def makeIntArray(size: int) -> list[int]:
-    return [random.randint(0, 100) for _ in range(size)]
+def make_int_array(size: int) -> list[int]:
+    return [random.randint(1, 100) for _ in range(size)]
+
+
+def make_int_custom_array(size: int, from_: int, step: int) -> list[int]:
+    # todo if step < 0 throw an exception
+    some_list = list()
+
+    for a in range(size):
+        some_list.append(from_ + step * a)
+
+    return some_list

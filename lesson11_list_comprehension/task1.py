@@ -1,4 +1,4 @@
-def task1(choose2):
+def task1(choice):
     greetings = ['hello', 'hi', 'hey', 'hola']
     if choose2 == 1:
         # with list comprehension
