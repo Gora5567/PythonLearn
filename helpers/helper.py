@@ -10,15 +10,9 @@ def end_task(a):
 
 
 def runner(func, *args):
-    def wrapper(*args, **kwargs):
-        start_task(func.__name__)
-        func(*args, **kwargs)
-        end_task(func.__name__)
-
-    wrapper(args)
-
-
-import random
+    start_task(func.__name__)
+    func(*args)
+    end_task(func.__name__)
 
 
 def make_int_array(size: int) -> list[int]:
