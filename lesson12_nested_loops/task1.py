@@ -1,5 +1,5 @@
 def chess():
-    size = 8  # размер доски 8x8
+    size = 8  # chessboard 8x8
 
     for row in range(size):
 

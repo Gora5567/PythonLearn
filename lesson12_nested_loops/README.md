@@ -1,3 +1,3 @@
 @author: Marik Yehor
 
-I made chessboard in python to show that i know nested loops.
+I made a chessboard in Python to show that I know nested loops.
