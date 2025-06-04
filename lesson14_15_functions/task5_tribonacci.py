@@ -1,3 +1,6 @@
+x = int(input("please enter a number: "))
+
+
 def tribonacci(n):
     if n <= 0:
         return []
@@ -12,3 +15,4 @@ def tribonacci(n):
     for i in range(3, n):
        trib.append(trib[-1] + trib[-2] + trib[-3])
     return trib
+tribonacci(x)
