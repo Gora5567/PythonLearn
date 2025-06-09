@@ -1,4 +1,6 @@
-from lesson14_15_functions.task1_greetings import greetings
+from task1_greetings import greetings
 
-name = input('Enter your name: ')
-greetings(name)
+def test_greetings():
+    assert greetings('Egor') == 'Hello, Egor!'
+    assert greetings('Alice') == 'Hello, Alice!'
+    assert greetings('') == 'Hello, !'

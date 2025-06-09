@@ -1,4 +1,8 @@
-from lesson14_15_functions.task4_filter_positive import filter_positive
+from task4_filter_positive import filter_positive
 
-x = int(input("please enter a number: "))
-filter_positive(x)
+def test_filter_positive():
+    assert filter_positive([1, -2, 3, 0, -5, 10]) == [1, 3, 10]
+    assert filter_positive([-1, -2, -3]) == []
+    assert filter_positive([0, 0, 0]) == []
+    assert filter_positive([5, 15, 25]) == [5, 15, 25]
+    assert filter_positive([]) == []

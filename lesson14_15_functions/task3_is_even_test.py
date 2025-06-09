@@ -1,4 +1,5 @@
-from lesson14_15_functions.task3_is_even import is_even
+from task3_is_even import is_even
 
-x = int(input("please enter a number: "))
-is_even(x)
+def test_is_even():
+    assert is_even(2) is True
+    assert is_even(5) is False

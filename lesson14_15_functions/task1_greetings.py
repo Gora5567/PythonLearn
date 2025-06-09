@@ -1,2 +1,2 @@
 def greetings(name):
-    print(f'Hello, {name}!')
+    return f'Hello, {name}!'
