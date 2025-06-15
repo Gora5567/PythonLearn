@@ -12,5 +12,7 @@ def execute_if_iterable_and_callable(value):
 
         try:
             return item()
+            continue
+
         except Exception as e:
             print(f"Ошибка при вызове: {e}")
