@@ -1,4 +1,6 @@
 from task10_info import User
+
+
 def test_user_creation_with_kwargs():
     user_data = {
         "name": "Egor",
@@ -10,3 +12,5 @@ def test_user_creation_with_kwargs():
     assert user.name == "Egor"
     assert user.email == "egor@gmail.com"
     assert user.age == 13
+
+    user.info()
