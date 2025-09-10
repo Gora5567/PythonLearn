@@ -5,7 +5,10 @@ class User:
         self.age = kwargs.get('age')
 
     def info(self):
-        buff = self.__dict__
+        print("\n")
 
-        for name in ["name", "email", "age"]:
-            print(f"{name}".format(**buff))
+        for k, v in self.__dict__.items():
+            print(f"{k}: {v}")
+
+        # for name in ["name", "email", "age"]:
+        #     print(f"{name}".format(**self.__dict__))
