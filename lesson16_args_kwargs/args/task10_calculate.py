@@ -16,7 +16,3 @@ def calculate(operator, *args):
         return mult
 
     return None
-
-
-print(calculate(operatorSum, 5, 5, 5))
-print(calculate(operatorMultiplication, 5, 5, 5))
