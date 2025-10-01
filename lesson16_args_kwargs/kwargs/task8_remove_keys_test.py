@@ -8,4 +8,3 @@ def test_remove_keys_function():
             {'name': "Jack", 'city': 'Odessa'})
     assert (remove_keys(['city'], name='jack', age=13, city='Odessa') ==
             {'name': "Jack", 'age': 13})
-а
