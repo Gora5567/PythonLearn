@@ -1,4 +1,4 @@
-from task3_is_even import is_even
+from task3_is_even_lambda import is_even
 
 def test_is_even():
     assert is_even(3) is False
