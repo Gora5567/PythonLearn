@@ -1,1 +1,1 @@
-last_char = lambda s: s[-1]
+last_char = lambda s: len(s)

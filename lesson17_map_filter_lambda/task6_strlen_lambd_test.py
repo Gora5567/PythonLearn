@@ -4,19 +4,23 @@ def test_last_char():
     test_cases = [
         {
             "in": "hello",
-            "out": "o"
+            "out": 5
         },
         {
             "in": "Python",
-            "out": "n"
+            "out": 6
         },
         {
             "in": "a",
-            "out": "a"
+            "out": 1
         },
         {
             "in": "12345",
-            "out": "5"
+            "out": 5
+        },
+        {
+            "in": "",
+            "out": 0
         },
     ]
 
