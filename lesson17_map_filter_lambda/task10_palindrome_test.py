@@ -1,5 +1,6 @@
 from task10_palindrome import is_palindrome
 
+
 def test_is_palindrome():
     test_cases = [
         {"in": "level", "out": True},

@@ -1,5 +1,6 @@
 from task11_plus10 import plus_ten
 
+
 def test_plus_ten():
     test_cases = [
         {"in": [1, 2, 3], "out": [11, 12, 13]},

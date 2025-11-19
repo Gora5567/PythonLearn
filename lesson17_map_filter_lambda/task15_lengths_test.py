@@ -1,5 +1,6 @@
 from task15_lengths import lengths
 
+
 def test_lengths():
     test_cases = [
         {"in": ["apple", "banana", "apricot", "cherry"],

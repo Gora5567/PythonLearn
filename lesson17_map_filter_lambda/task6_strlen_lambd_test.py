@@ -1,5 +1,6 @@
 from task6_strlen_lambd import last_char
 
+
 def test_last_char():
     test_cases = [
         {

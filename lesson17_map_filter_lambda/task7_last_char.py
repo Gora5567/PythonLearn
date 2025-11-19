@@ -1,1 +1,2 @@
-last_char = lambda s: s[-1]
+def last_char(s):
+    return s[-1]

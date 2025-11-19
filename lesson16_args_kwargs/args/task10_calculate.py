@@ -1,5 +1,3 @@
-from encodings import undefined
-
 operatorSum = "+"
 operatorMultiplication = "*"
 

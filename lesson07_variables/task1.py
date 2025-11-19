@@ -13,3 +13,7 @@ print("Year:", car_year)
 print("Doors:", car_doors)
 
 helper.end_task(1)
+
+
+def main():
+    return None

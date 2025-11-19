@@ -1,5 +1,6 @@
 from task13_age_check import age_check
 
+
 def test_age_check():
     test_cases = [
         {"in": 20, "out": "adult"},

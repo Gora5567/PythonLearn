@@ -1,5 +1,6 @@
 from task5_tribonacci import tribonacci
 
+
 def test_tribonacci():
     assert tribonacci(-5) == []
     assert tribonacci(0) == []

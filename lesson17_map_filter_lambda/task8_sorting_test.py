@@ -1,4 +1,5 @@
-from task8_sorted import *
+from task8_sorting import sorted_list
+
 
 def test_sorted():
     test_cases = [
@@ -13,4 +14,4 @@ def test_sorted():
     ]
 
     for case in test_cases:
-        assert for_sorted_list(case["in"]) == case["out"]
+        assert sorted_list(case["in"]) == case["out"]

@@ -1,5 +1,6 @@
 from task2_square import square
 
+
 def test_square():
     test_cases = {
         2: 4,

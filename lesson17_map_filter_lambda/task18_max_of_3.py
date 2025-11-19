@@ -1,1 +1,2 @@
-max_of_three = lambda a, b, c: max(a, b, c)
+def max_of_three(a, b, c):
+    return max(a, b, c)

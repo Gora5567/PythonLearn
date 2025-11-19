@@ -1,5 +1,3 @@
-from helpers import *
-
 # Create a dictionary object containing key and value pairs, display one value
 def task1():
     person = {

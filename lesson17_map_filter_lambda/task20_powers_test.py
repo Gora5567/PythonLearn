@@ -1,4 +1,5 @@
-from task20_powers import *
+from task20_powers import power_funcs
+
 
 def test_make_power_funcs():
     funcs = power_funcs()

@@ -2,7 +2,8 @@ import helpers
 
 
 def first_task():
-    data_list = [42, 'Hello', 3.14, True, None, [1, 2, 3], {'key': 'value'}, (5, 6)]
+    data_list = [42, 'Hello', 3.14, True, None, [1, 2, 3],
+                 {'key': 'value'}, (5, 6)]
     print(data_list)
 
 

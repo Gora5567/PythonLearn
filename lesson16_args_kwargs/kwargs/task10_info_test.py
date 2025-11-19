@@ -8,10 +8,8 @@ def test_user_creation_with_kwargs():
         "age": 13
     }
 
-    ## the same as user = User(name="Egor", email="egor@gmail.com", age=13)
+    # the same as user = User(name="Egor", email="egor@gmail.com", age=13)
     user = User(**user_data)
-
-
 
     assert user.name == "Egor"
     assert user.email == "egor@gmail.com"

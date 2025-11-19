@@ -1,5 +1,6 @@
 from task9_reduce import product_list
 
+
 def test_product_list():
     test_cases = [
         {

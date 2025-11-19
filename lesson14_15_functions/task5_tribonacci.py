@@ -10,5 +10,5 @@ def tribonacci(n):
 
     trib = [0, 1, 1]
     for i in range(3, n):
-        trib.append(trib[i-3] + trib[i-2] + trib[i-1])
+        trib.append(trib[i - 3] + trib[i - 2] + trib[i - 1])
     return trib

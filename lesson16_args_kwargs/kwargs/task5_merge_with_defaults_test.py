@@ -6,7 +6,8 @@ def test_merge_with_defaults():
     test_cases = [
         {
             "in": {"greetings": "hello", "gender": "male"},
-            "out": {"greetings": "hello", "gender": "male", "name": "jack", "car": "bmw"},
+            "out": {"greetings": "hello", "gender": "male",
+                    "name": "jack", "car": "bmw"},
         },
         {
             "in": 1,

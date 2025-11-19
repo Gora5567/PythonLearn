@@ -1,5 +1,6 @@
 from task4_square_map import square_list
 
+
 def test_square_lambd_map():
     test_cases = [
         {

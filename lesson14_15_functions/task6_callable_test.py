@@ -2,6 +2,7 @@ import sys
 import io
 from task6_callable import execute_if_iterable_and_callable
 
+
 def test_execute_if_iterable_and_callable():
     def capture_output(value):
         old_stdout = sys.stdout
@@ -16,7 +17,7 @@ def test_execute_if_iterable_and_callable():
         print("hello!", end='')
 
     def hello2():
-        print("hello2",end='')
+        print("hello2", end='')
 
     def yo():
         print("yo!", end='')

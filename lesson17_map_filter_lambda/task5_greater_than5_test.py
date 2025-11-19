@@ -1,4 +1,5 @@
-from task5_greater_than5 import *
+from task5_greater_than5 import greater_than5_list
+
 
 def test_greater_than5():
     test_cases = [

@@ -1,4 +1,6 @@
-from task19_group import *
+from task19_group import group_by_first_letter
+
+
 def test_group_by_first_letter():
     words = ["apple", "apricot", "banana", "blueberry", "cherry", "cranberry"]
     expected = {

@@ -2,8 +2,8 @@ import sys
 import io
 from task1_greetings import greetings
 
-def test_greetings():
 
+def test_greetings():
     def output(name):
         old_stdout = sys.stdout
         sys.stdout = buffer = io.StringIO()
